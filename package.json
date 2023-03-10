@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Barrymoonshine/restaurant-page#readme",
   "devDependencies": {
+    "prettier": "2.8.4",
     "webpack": "^5.76.0",
     "webpack-cli": "^5.0.1"
   }

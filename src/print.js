@@ -1,5 +1,5 @@
 export default function pageLoad() {
-  const content = document.getElementById("content");
+  const content = document.getElementById('content');
 
   content.innerHTML = `
   <div class="header"> 
@@ -12,13 +12,13 @@ export default function pageLoad() {
   <div class="main-container">
     <div class="content-container">
         <div class="title">
-            <h2>Luigi's dinner</h2>
+            <h2>Luigi's Diner</h2>
             <h4>The best Italian in town - just like mama used to make it! </h4>
         </div>
         <div class="customer-review">
             <p> Luigi's has the best green shells in Mushroom World! 
             Me and my girl Peach feel much safer here than at Bowser's firey flame grill. </p> 
-            <p> It's a me Mario </p>
+            <p> - It's a me Mario </p>
         </div>
         <div class="opening-times">
             <h3>Opening times</h3>

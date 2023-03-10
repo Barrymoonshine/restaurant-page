@@ -1,3 +1,4 @@
-import pageLoad from "./print.js";
+import pageLoad from './print.js';
+import './style.css';
 
 pageLoad();

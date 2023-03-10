@@ -4,20 +4,21 @@ export default function pageLoad() {
   content.innerHTML = `
   <div class="header"> 
   <ul>
-    <li>Home</li>
-    <li>Bookings</li>
-    <li>Menu</li>
+    <li><button>Home</button></li>
+    <li><button>Bookings</button></li>
+    <li><button>Menu</button></li>
   </ul>
   </div>
   <div class="main-container">
+  <img src="../src/american-diner.jpg" alt="American diner">
     <div class="content-container">
         <div class="title">
             <h2>Luigi's Diner</h2>
-            <h4>The best Italian in town - just like mama used to make it! </h4>
+            <h4>The best Diner in town - "just like mama used to make it!" </h4>
         </div>
         <div class="customer-review">
-            <p> Luigi's has the best green shells in Mushroom World! 
-            Me and my girl Peach feel much safer here than at Bowser's firey flame grill. </p> 
+            <p> "Luigi's has the best green shells in Mushroom World! 
+            Me and my girl Peach feel much safer here than at Bowser's firey flame grill." </p> 
             <p> - It's a me Mario </p>
         </div>
         <div class="opening-times">

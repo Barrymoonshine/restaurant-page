@@ -10,16 +10,21 @@ export default function pageLoad() {
   </ul>
   </div>
   <div class="main-container">
-  <img src="../src/american-diner.jpg" alt="American diner">
     <div class="content-container">
         <div class="title">
             <h2>Luigi's Diner</h2>
-            <h4>The best Diner in town - "just like mama used to make it!" </h4>
+            <div class="sub-title">
+              <h4>The best Diner in town "just like mama used to make it!" </h4>
+              <img class="luigi-image" src="../src/images/luigi.png" alt="Luigi">
+            </div>
         </div>
         <div class="customer-review">
-            <p> "Luigi's has the best green shells in Mushroom World! 
+            <p> "Luigi's has the best green shells in the whole of Mushroom World! 
             Me and my girl Peach feel much safer here than at Bowser's firey flame grill." </p> 
-            <p> - It's a me Mario </p>
+            <div class="quote-attribute">
+              <p> - It's a me, Mario! </p>
+              <img class="mario-image" src="../src/images/mario.png" alt="Mario">
+            </div>
         </div>
         <div class="opening-times">
             <h3>Opening times</h3>

@@ -12,7 +12,6 @@ export default function renderBookingsPage() {
           </div>
           <div class="make-a-booking">
               <p> To make a booking please contact us on our details below, or come into the diner during opening hours.</p> 
-              </div>
           </div>
           <div class="contact-us">
               <h3>Contact us</h3>

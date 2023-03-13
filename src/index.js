@@ -1,5 +1,6 @@
 import renderHomePage from './home-page.js';
 import renderBookingsPage from './bookings.js';
+import renderMenuPage from './menu.js';
 import './style.css';
 
 renderHomePage();
@@ -14,8 +15,9 @@ function addHeaderListener() {
     } else if (targetButton === 'bookings-button') {
       renderBookingsPage();
       console.log('booking');
+    } else if (targetButton === 'menu-button') {
+      renderMenuPage();
     }
-    addHeaderListener();
   });
 }
 

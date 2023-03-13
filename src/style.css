@@ -120,7 +120,13 @@ h4 {
 
 .customer-review,
 .opening-times,
-.contact-us {
+.contact-us,
+.make-a-booking,
+.burger,
+.grattan,
+.smoothie {
+  align-self: center;
+  justify-self: center;
   width: 1300px;
   max-width: 80%;
   font-family: 'Damion', cursive;

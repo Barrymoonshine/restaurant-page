@@ -1,15 +1,15 @@
-export default function pageLoad() {
+export default function renderHomePage() {
   const content = document.getElementById('content');
 
   content.innerHTML = `
-  <div class="header"> 
+  <div class="header" id="top-nav"> 
   <ul>
-    <li><button>Home</button></li>
-    <li><button>Bookings</button></li>
-    <li><button>Menu</button></li>
+    <li><button id="home-page-button">Home</button></li>
+    <li><button id="bookings-button">Bookings</button></li>
+    <li><button id="menu-button">Menu</button></li>
   </ul>
   </div>
-  <div class="main-container">
+  <div id="main-container">
     <div class="content-container">
         <div class="title">
             <h2>Luigi's Diner</h2>
@@ -19,7 +19,7 @@ export default function pageLoad() {
             </div>
         </div>
         <div class="customer-review">
-            <p> "Luigi's has the best green shells in the whole of Mushroom World! 
+            <p class="quote"> "Luigi's has the best green shells in the whole of Mushroom World! 
             Me and my girl Peach feel much safer here than at Bowser's firey flame grill." </p> 
             <div class="quote-attribute">
               <p> - It's a me, Mario! </p>

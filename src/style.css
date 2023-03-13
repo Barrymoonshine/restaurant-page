@@ -66,7 +66,7 @@ img {
   width: 100%;
 }
 
-.main-container {
+#main-container {
   height: 1500px;
   width: 100%;
   display: flex;
@@ -137,10 +137,16 @@ h4 {
   height: 80px;
 }
 
+.quote {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
 .quote-attribute {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  margin-top: 0px;
 }
 
 .footer {

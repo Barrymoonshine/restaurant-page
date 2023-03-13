@@ -1,4 +1,4 @@
-export default function renderHomePage() {
+export default function createHomePage() {
   const content = document.getElementById('content');
 
   content.innerHTML = `

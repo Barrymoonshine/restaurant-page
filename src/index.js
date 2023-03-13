@@ -1,9 +1,10 @@
-import renderHomePage from './home-page.js';
+import createHomePage from './home-page.js';
+import renderHomePage from './home.js';
 import renderBookingsPage from './bookings.js';
 import renderMenuPage from './menu.js';
 import './style.css';
 
-renderHomePage();
+createHomePage();
 
 function addHeaderListener() {
   const header = document.getElementById('top-nav');
@@ -11,10 +12,8 @@ function addHeaderListener() {
     const targetButton = e.target.id;
     if (targetButton === 'home-page-button') {
       renderHomePage();
-      console.log('home');
     } else if (targetButton === 'bookings-button') {
       renderBookingsPage();
-      console.log('booking');
     } else if (targetButton === 'menu-button') {
       renderMenuPage();
     }

@@ -15,7 +15,7 @@ export default function createHomePage() {
             <h2>Luigi's Diner</h2>
             <div class="sub-title">
               <h4>The best Diner in town "just like mama used to make it!" </h4>
-              <img class="luigi-image" src="../src/images/luigi.png" alt="Luigi">
+              <img class="luigi-image" src="./images/luigi.png" alt="Luigi">
             </div>
         </div>
         <div class="customer-review">
@@ -23,7 +23,7 @@ export default function createHomePage() {
             Me and my girl Peach feel much safer here than at Bowser's firey flame grill." </p> 
             <div class="quote-attribute">
               <p> - It's a me, Mario! </p>
-              <img class="mario-image" src="../src/images/mario.png" alt="Mario">
+              <img class="mario-image" src="./images/mario.png" alt="Mario">
             </div>
         </div>
         <div class="opening-times">

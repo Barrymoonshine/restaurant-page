@@ -6,8 +6,6 @@
 
 The Restuarant Page is a simple project designed to teach how to use Webpack to dynamically create the contents of a website as part of [The Odin Project's](https://theodinproject.com) Full Stack Javascript curriculum.
 
-The page has only been minimally styled, as the project was not designed to test advanced design and CSS capabilities.
-
 ## Key learning points
 
 - How to use NPM to install packages
